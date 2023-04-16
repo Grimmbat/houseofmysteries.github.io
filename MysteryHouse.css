@@ -73,13 +73,13 @@ p {
 }
 
 .holmes-container {
-    max-width: 100%;
+    width: 95%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     border-color: gray;
     fill: gray;
-    width: 1450px;
     justify-content: center;
     align-content: flex-end;
     background-color: gray;
@@ -89,13 +89,13 @@ p {
 }
 
 .poirot-container {
-    max-width: 100%;
+    width: 95%;
+    height: 100%;
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     border-color: gray;
     fill: gray;
-    width: 1450px;
     justify-content: center;
     align-content: flex-end;
     background-color: gray;
