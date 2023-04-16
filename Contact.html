@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MysteryHouse.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <img src="banner.jpg" alt="House" style="width:80%;">
+        <div class="banner-title">HOUSE OF MYSTERIES</div>
+        <div class="banner-blurb">You'll never know what's on the next page...</div>
+      </div>
+    <div class="navigation">
+      <a href="House.html">Home</a>
+      <a href="Authors.html">Authors</a>
+      <a href="Blog.html">Blog</a>
+    </div>
+    <p style="font-size: 60px; color: white; text-align: center;">Contact Us!</p>
+    <div class="contact">
+      <form action="contact_form.php">
+        <div>
+          <label for="ContactPurpose">Contact Purpose</label>
+          <select id="ContactPurpose" name="ContactPurpose">
+            <option value="sell">I want to sell books</option>
+            <option value="buy">I want to buy books</option>
+          </select>
+        </div>
+        <div><label for="name">Name</label>
+          <input type="text" id="name" name="Name" placeholder="Your name..">
+        </div>
+        <div><label for="email">Email</label>
+          <input type="text" id="email" name="Email" placeholder="customer@email.com">
+        </div>
+        <div><label for="phone">Phone Number</label>
+          <input type="text" id="phone" name="Phone Number" placeholder="0123456789">
+        </div>
+        <div><label for="Preferred Contact Method">Preferred Contact Method</label>
+          <br>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> By Email</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2"> By Phone</label><br>
+        </div>
+        <div><label for="newsletter">Receive Newsletter?</label>
+          <br>
+          <input type="radio" id="newsletterYes" name="newsletter" value="nyes">
+          <label for="newsletterYes">Yes</label><br>
+          <input type="radio" id="newsletterNo" name="newsletter" value="nno">
+          <label for="newsletterNo">No</label><br>
+        </div>
+        <div>
+          <label for="notes">Notes</label>
+          <textarea id="notes" name="notes" placeholder="Anything we should keep in mind?"></textarea>
+        </div>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <br>
+    <div class="footer">
+      <div>About Us</div>
+      <div>Privacy Policy</div>
+      <div>Terms</div>
+      <div>Copyright</div>
+      <div> <a href="Contact.html">Contact Us</a></div>
+    </div>
+</body>
+</html>
