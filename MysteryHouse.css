@@ -10,17 +10,18 @@
   }
   
 .banner-title {
-    width: 600px;
-    border: 15px black;
-    padding: 10px;
-    margin: 10px;
+    width: 40%;
+    border: 2% black;
+    padding: 1%;
+    margin: 1%;
     background-color: black;
     word-wrap: normal;
     position: absolute;
-    font-size: 80px;
+    font-size: 5vw;
     font-family: "Georgia", serif;
-    right: 200px;
-    top: 0px; 
+    right: 15%;
+    top: 3%; 
+    transform: translate(-50% 50%);
 }
 
 .banner-blurb {
@@ -28,10 +29,11 @@
     border: 1% black;
     padding: 0.1%;
     margin: 1%;
-    font-size: 35px;
+    font-size: 2vw;
     position: absolute;
-    right: 200px;
-    top: 270px;
+    right: 10%;
+    top: 75%;
+    transform: translate(-50% 50%);
 }
 
 h1 {
