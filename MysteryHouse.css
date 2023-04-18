@@ -162,3 +162,11 @@ input[type=submit] {
     font-size: 24px;
     
 }
+
+.book-detail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50em;
+    width: 35em;
+}
