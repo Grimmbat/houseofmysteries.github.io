@@ -172,6 +172,7 @@ input[type=submit] {
         height: auto;
         gap: 3px;
         padding: 2px;
+        flex-direction: column;
     }
 }
 
