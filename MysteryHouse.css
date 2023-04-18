@@ -168,7 +168,7 @@ input[type=submit] {
 
 @media screen and (max-width: 800px) {
     .poirot-container, .holmes-container {
-        width: 20%;
+        width: 100%;
         height: auto;
         gap: 3px;
         padding: 2px;
