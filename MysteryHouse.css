@@ -104,12 +104,7 @@ p {
     text-align: center;
 }
 
-@media screen and (max-width: 800px) {
-    .poirot-container, .holmes-container {
-        width: 20%;
-        height: auto;
-    }
-}
+
 
 .footer {
     display: flex;
@@ -169,4 +164,18 @@ input[type=submit] {
     flex-wrap: wrap;
     height: 50em;
     width: 35em;
+}
+
+@media screen and (max-width: 800px) {
+    .poirot-container, .holmes-container {
+        width: 20%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .book-image {
+        width: 25%;
+        height: auto;
+    }
 }
