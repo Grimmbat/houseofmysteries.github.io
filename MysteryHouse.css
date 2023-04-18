@@ -170,6 +170,8 @@ input[type=submit] {
     .poirot-container, .holmes-container {
         width: 20%;
         height: auto;
+        gap: 3px;
+        padding: 2px;
     }
 }
 
@@ -177,5 +179,7 @@ input[type=submit] {
     .book-image {
         width: 25%;
         height: auto;
+        gap: 3px;
+        padding: 2px;
     }
 }
