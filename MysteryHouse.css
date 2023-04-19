@@ -199,7 +199,7 @@ input[type=submit] {
 
 @media screen and (max-width: 800px) {
     .book-image {
-        width: 50%;
+        width: 75%;
         height: auto;
         gap: 3px;
         padding: 2px;
