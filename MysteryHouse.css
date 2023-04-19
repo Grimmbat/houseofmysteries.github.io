@@ -1,3 +1,11 @@
+/* RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Tran Nguyen Quan
+ID: s3979298
+Acknowledgement: I acknowledge that during my work I used W3Schools, the Mozilla Development Network, and stackoverflow.com for reference on coding items. */
+
 * {
     background-color: black;
     color: white;
@@ -162,8 +170,14 @@ input[type=submit] {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 50em;
-    width: 35em;
+    height: 45em;
+    width: 30em;
+    padding: 0.2em;
+    margin: 0.5em;
+}
+
+.video {
+    text-align: center;
 }
 
 @media screen and (max-width: 800px) {
