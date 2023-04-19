@@ -113,7 +113,13 @@ p {
     text-align: center;
 }
 
-
+.doyle-category {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    width: 90%;
+    flex-wrap: no-wrap
+}
 
 .footer {
     display: flex;
