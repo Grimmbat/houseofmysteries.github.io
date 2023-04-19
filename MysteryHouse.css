@@ -121,6 +121,10 @@ p {
     flex-wrap: no-wrap
 }
 
+.doyle-category > * {
+    flex: 1 1 0;
+}
+
 .footer {
     display: flex;
     color: white;
@@ -203,5 +207,11 @@ input[type=submit] {
         height: auto;
         gap: 3px;
         padding: 2px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
     }
 }
