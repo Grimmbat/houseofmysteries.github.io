@@ -219,7 +219,8 @@ input[type=submit] {
     .navigation, .footer {
         flex-direction: column;
         width: 100%;
-        gap: 0.1em;
+        gap: 0.2em;
+        justify-content: baseline;
     }
 }
 
