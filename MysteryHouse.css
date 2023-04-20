@@ -79,7 +79,7 @@ p {
     color: black;
 }
 
-.holmes-container {
+.holmes-category {
     width: 95%;
     height: 100%;
     display: flex;
@@ -95,7 +95,7 @@ p {
     text-align: center;
 }
 
-.poirot-container {
+.poirot-category {
     width: 95%;
     height: 100%;
     display: flex;
@@ -110,6 +110,39 @@ p {
     padding: 10px;
     text-align: center;
 }
+
+.marple-category {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-color: gray;
+    fill: gray;
+    justify-content: center;
+    align-content: flex-end;
+    background-color: gray;
+    gap: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.tt-category {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    border-color: gray;
+    fill: gray;
+    justify-content: center;
+    align-content: flex-end;
+    background-color: gray;
+    gap: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
 
 .doyle-category, .christie-category {
     display: flex;
@@ -201,7 +234,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 960px) {
-    .poirot-container, .holmes-container, .book-detail {
+    .poirot-category, .holmes-category, .book-detail {
         width: 100%;
         height: auto;
         gap: 3px;
