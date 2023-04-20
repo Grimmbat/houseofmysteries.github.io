@@ -12,7 +12,7 @@ Acknowledgement: I acknowledge that during my work I used W3Schools, the Mozilla
     color: white;
 }
 
-.container {
+.banner {
     position: relative;
     text-align: center;
     color: white;
@@ -215,4 +215,10 @@ input[type=submit] {
         flex-direction: column;
         width: 100%;
     }
+}
+
+@media screen and (max-width: 960px) {
+    .banner {
+        width: 100%
+    }   
 }
