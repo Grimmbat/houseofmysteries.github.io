@@ -133,6 +133,8 @@ p {
     font-size: 25px;
     flex-direction: row;
     justify-content: space-around;
+    padding-right: 5em;
+    padding-left: 5em;
 }
 
 .contact {
@@ -183,6 +185,7 @@ input[type=submit] {
     width: 30em;
     padding: 0.2em;
     margin: 0.5em;
+    gap: 1em
 }
 
 .video {
