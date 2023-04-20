@@ -253,11 +253,18 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 960px) {
-    .navigation, .footer {
+    .navigation {
         flex-direction: column;
         width: 100%;
         gap: 0.64em;
         text-align: center;
+        background-color: transparent;
+    }
+    .footer {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.64em;
+        float: left;
         background-color: transparent;
     }
 }
