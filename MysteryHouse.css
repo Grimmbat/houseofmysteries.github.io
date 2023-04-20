@@ -213,5 +213,6 @@ input[type=submit] {
 @media screen and (max-width: 960px) {
     .navigation, .footer {
         flex-direction: column;
+        width: 100%;
     }
 }
