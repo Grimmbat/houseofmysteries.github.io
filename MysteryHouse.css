@@ -111,15 +111,15 @@ p {
     text-align: center;
 }
 
-.doyle-category {
+.doyle-category, .christie-category {
     display: flex;
     flex-direction: row;
-    flex-basis: auto;
     width: 90%;
-    flex-wrap: no-wrap
+    flex-wrap: wrap;
+    background-color: gray
 }
 
-.doyle-category > * {
+.doyle-category, .christie-category > * {
     flex: 1 1 0;
 }
 
