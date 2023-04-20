@@ -217,6 +217,7 @@ input[type=submit] {
         flex-direction: column;
         width: 100%;
         background-color: gray;
+        justify-content: space-evenly;
     }
 }
 
