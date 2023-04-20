@@ -216,8 +216,8 @@ input[type=submit] {
     .navigation, .footer {
         flex-direction: column;
         width: 100%;
-        background-color: gray;
         align-items: center;
+        gap: 0.1em;
     }
 }
 
