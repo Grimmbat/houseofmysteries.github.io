@@ -58,7 +58,7 @@ p {
     display: flex;
     background-color: gray;
     font-size: 30px;
-    overflow: hidden;
+    overflow: visible;
     flex-direction: row;
     justify-content: center;
 }
