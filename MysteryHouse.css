@@ -119,7 +119,11 @@ p {
     background-color: gray
 }
 
-.doyle-category, .christie-category > * {
+.doyle-category > * {
+    flex: 1 1 0;
+}
+
+.christie-category > * {
     flex: 1 1 0;
 }
 
