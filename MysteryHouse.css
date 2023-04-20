@@ -219,8 +219,7 @@ input[type=submit] {
     .navigation, .footer {
         flex-direction: column;
         width: 100%;
-        align-items: center;
-        gap: 1em;
+        gap: 0.1em;
     }
 }
 
