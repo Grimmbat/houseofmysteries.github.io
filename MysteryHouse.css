@@ -56,7 +56,6 @@ p {
 
 .navigation {
     display: flex;
-    position: relative;
     background-color: gray;
     font-size: 30px;
     overflow: hidden;
