@@ -234,7 +234,7 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 960px) {
-    .poirot-category, .holmes-category, .book-detail {
+    .poirot-category, .holmes-category, .marple-category, .tt-category {
         width: 100%;
         height: auto;
         gap: 3px;
