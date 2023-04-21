@@ -12,11 +12,6 @@ Acknowledgement: I acknowledge that during my work I used W3Schools, the Mozilla
     color: white;
 }
 
-.h2 {
-    font-size: 10em;
-    font-weight: bold
-}
-
 .banner {
     position: relative;
     text-align: center;
@@ -238,6 +233,7 @@ input[type=submit] {
    object-fit: contain;
 }
 
+
 @media screen and (max-width: 960px) {
     .poirot-category, .holmes-category, .marple-category, .tt-category {
         width: 100%;
@@ -246,18 +242,14 @@ input[type=submit] {
         padding: 2px;
         flex-direction: column;
     }
-}
 
-@media screen and (max-width: 960px) {
     .book-image {
         width: 75%;
         height: auto;
         gap: 3px;
         padding: 2px;
     }
-}
 
-@media screen and (max-width: 960px) {
     .navigation {
         flex-direction: column;
         width: 100%;
@@ -265,6 +257,7 @@ input[type=submit] {
         text-align: center;
         background-color: transparent;
     }
+
     .footer {
         flex-direction: column;
         width: 100%;
@@ -272,23 +265,27 @@ input[type=submit] {
         float: left;
         background-color: transparent;
     }
-}
 
-@media screen and (max-width: 960px) {
     .banner {
         width: 100%
-    }   
-}
+    }  
 
-@media screen and (max-width: 960px) {
     .video {
         height: 800px;
         width: 620px
     }
-}
 
-@media screen and (max-width: 960px) {
     .book-detail {
         flex-direction: row;
+    }
+
+    .cover-image {
+        width: 80%;
+        height: auto;
+    }
+
+    .preview-image {
+        width: 30%;
+        height: auto;
     }
 }
