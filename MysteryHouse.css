@@ -12,6 +12,11 @@ Acknowledgement: I acknowledge that during my work I used W3Schools, the Mozilla
     color: white;
 }
 
+.h2 {
+    font-size: 10em;
+    font-weight: bold
+}
+
 .banner {
     position: relative;
     text-align: center;
