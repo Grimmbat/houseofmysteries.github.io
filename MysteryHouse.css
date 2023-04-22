@@ -6,6 +6,7 @@ Author: Tran Nguyen Quan
 ID: s3979298
 Acknowledgement: I acknowledge that during my work I used W3Schools, the Mozilla Development Network, and stackoverflow.com for reference on coding items. */
 
+/* General, desktop-exclusive CSS work. */
 
 * {
     background-color: black;
@@ -246,6 +247,7 @@ input[type=submit] {
     display: block;
 }
 
+/* Section for mobile responsiveness. */
 
 @media screen and (max-width: 960px) {
     .poirot-category, .holmes-category, .marple-category, .tt-category {
