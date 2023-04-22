@@ -79,6 +79,15 @@ p {
     color: black;
 }
 
+.book-image {
+    filter: grayscale(100%);
+    transition: filter 1s;
+}
+
+.book-image:hover {
+    filter: grayscale(0%)
+}
+
 .holmes-category {
     width: 95%;
     height: 100%;
