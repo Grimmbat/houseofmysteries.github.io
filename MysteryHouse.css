@@ -292,7 +292,7 @@ input[type=submit] {
 
     .book-detail {
         flex-direction: row;
-        margin-bottom: 10em;
+        margin-bottom: 20em;
         height: 50em;
     }
 
