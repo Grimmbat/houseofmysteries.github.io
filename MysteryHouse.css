@@ -247,7 +247,7 @@ input[type=submit] {
     display: block;
 }
 
-/* Section for mobile responsiveness. */
+/* Section for mobile responsiveness. The most headache-inducing part of all, this particular part actually almost made me lose motivation. */
 
 @media screen and (max-width: 960px) {
     .poirot-category, .holmes-category, .marple-category, .tt-category {
