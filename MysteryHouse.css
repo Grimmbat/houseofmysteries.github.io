@@ -189,9 +189,6 @@ p {
     background-color: gray;
     padding: 15px;
     font-size: 32px;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
     margin: 15px;
 }
 
